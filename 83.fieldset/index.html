@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <b>ID</b><input type="text" size="10" maxlength="10" name="id"><br>
+            <b>name</b><input type="text" size="10" maxlength="10" name="yourname"><br>
+            <b>password</b><input type="password" size="10" maxlength="10" name="pwd"><br>
+            <b>confirm password</b><input type="password" size="10" maxlength="10" name="pwd2"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>cell phone number</legend>
+            <select name="m1">
+                <option value=" ">select</option>
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+                <option value="019">019</option>
+            </select>
+            -
+            <input type="text" size="4" name="m2" maxlength="4">
+            -
+            <input type="text" size="4" name="m3" maxlength="4"><br>
+        </fieldset>
+
+        <legend>sex</legend>
+        <input type="radio" name="sex" value="man" checked>man
+        <input type="radio" name="sex" value="woman">woman <br>
+        
+        <input type="submit" value="Join" name="submit">
+        <input type="reset" value="rewrite">
+    </form>
+</body>
+</html>
